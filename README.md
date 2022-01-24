@@ -1,18 +1,17 @@
 # NASA-Astronomy-Picture
-iOS Native APP to see daily published NASA Picture
+iOS Native APP to see daily published NASA Picture with caching implemented, if the internet is not avilable it shows last day cached image and if the details alreday cached it will show detail from the cache.
 
 MVVM | Caching | Native iOS NASA-Astronomy-Picture
 
-Technologies
-Project is created with:
-Xcode: 13.1
-Swift: 5
+##Technologies
+IDE Xcode: 13.1
+Language: Swift: 5
 Storage: NSCache & Document Directory
-Minimum iOS version : 13
-iPhone devices with potrait and upside orientation supported
+Minimum iOS version supported : 13
+Orientation supported: potrait and upside orientation
 
 
-Modules
+##Modules
 NasaAstronomy App
 Network Service
 Setup
@@ -22,9 +21,10 @@ Run NasaAstronomy taget for main application
 Run NasaAstronomyTests taget for testcases
 Run NetworkService taget for Newtwork service module
 Run NetworkServiceTests taget for Newtwork service module test cases
-Improvement scope
-Needs to setup Depndacy Injection
-Image donwloading caching should be in NetworkService Module
-For UI needs to create Design Materail module
+
+
+##Improvement scope
+Needs to setup dependency Injection
+Network layer and cache can be losely coupled
 Code refactoring required at some places.
-Test cases needs more covrage
+Need to added test cases
