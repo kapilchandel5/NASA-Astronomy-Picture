@@ -23,15 +23,15 @@ MVVM | Caching | Native iOS NASA-Astronomy-Picture
 ## Modules
 * NASA-ASTRONOMY App 
 * Core
-** NasaPictureDetailUseCase : This class calls network class and if network is not available return result from cached
-** NasaPictureNetwork : This class is responsible for fetching API response and parsing
-** NasaPictureDetail : Data model 
-** DateUtils : contains method to provide date as string in specific format
-** CacheManager : responsible for caching data in document directory
-** UIImageView+Download : extension responsible for downloading image and caching it using cache manager class
-** Constants : It contains constants of the app
-** NasaPictureViewController : View controller 
-** NasaPictureViewModel : View Model  
+  - NasaPictureDetailUseCase : This class calls network class and if network is not available return result from cached
+  - NasaPictureNetwork : This class is responsible for fetching API response and parsing
+  - NasaPictureDetail : Data model 
+  - DateUtils : contains method to provide date as string in specific format
+  - CacheManager : responsible for caching data in document directory
+  - UIImageView+Download : extension responsible for downloading image and caching it using cache manager class
+  - Constants : It contains constants of the app
+  - NasaPictureViewController : View controller 
+  - NasaPictureViewModel : View Model  
 
 ## Setup
 * Checkout code in your local machine.
