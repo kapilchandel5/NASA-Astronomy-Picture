@@ -9,7 +9,7 @@ import Foundation
 
 struct NasaPictureDetail :Codable, Equatable {
     public let date, explanation: String
-    public let hdurl: String
+    public let hdurl: String?
     public let mediaType, serviceVersion, title: String
     public let url: String
     var isCachedImage = false
